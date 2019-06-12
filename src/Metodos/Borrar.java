@@ -20,15 +20,15 @@ public class Borrar {
 
     /**
      * Método para borrar una fila de la tabla rally, especificando el código de barras
-     * @param Dorsal
+     * @param codigobarras
      * @return Borrar fila Competición
      */
-    public static boolean borrarCompetidor(int Dorsal){
+    public static boolean borrarCodigoBarras(int codigobarras){
         boolean brCom=false;
         String sql = "DELETE FROM carnes WHERE CBarras=?";
         try (Connection conn = conectar();
             PreparedStatement pstmt  = conn.prepareStatement(sql)){
-            pstmt.setInt(1, Dorsal);
+            pstmt.setInt(1, codigobarras);
             pstmt.executeUpdate();
             brCom=true;
         } catch (SQLException e) {

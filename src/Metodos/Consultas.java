@@ -79,7 +79,7 @@ public class Consultas {
      * @param animal
      * @return cod de animal
      */
-    public static int obtenerIdCategoria(String animal) {
+    public static int obtenerCODAnimal(String animal) {
         String sql = "SELECT cod FROM Categoria where animal = ?;";
         int resultado = 0;
         try (Connection conn = conectar();
