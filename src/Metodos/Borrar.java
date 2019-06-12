@@ -19,7 +19,7 @@ public class Borrar {
         
 
     /**
-     * Método para borrar una fila de la tabla rally, especificando el código de barras
+     * Método para borrar una fila de la tabla carnes, especificando el código de barras
      * @param codigobarras
      * @return Borrar fila Competición
      */
