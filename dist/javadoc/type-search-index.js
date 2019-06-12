@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"Metodos","l":"Borrar"},{"p":"Metodos","l":"Conectar"},{"p":"Metodos","l":"Consultas"},{"p":"Metodos","l":"CreacionTablas"},{"p":"GUI","l":"GUI_SQLITE"},{"p":"Metodos","l":"Insertar"},{"p":"SQLiteJDBCDriverConnection","l":"LibreriaSQLiteEjemplo"},{"p":"Metodos","l":"Modificar"},{"p":"Metodos","l":"Return"}]
